@@ -12,13 +12,13 @@
 </head>
 <body>
 	
-	<div class="jumbotron" style="margin-bottom:0; max-height: 100px; padding-top: 0">
+	<div class="jumbotron" style="margin-bottom:0; max-height: 100px; padding-top: 0; background-color: #005883; color: white;">
 		<div class="row">	
 			<div class="col-sm-6">
 				<h1>DISEÑO WEB-HTML5 Y CSS3 </h1>
 			</div>
 			<div class="col-sm-6">
-				<img src="img/unad_negro.png" alt="Logo" style="width:20%;">
+				<img src="img/unad_negro.png" alt="Logo" style="width:20%; float:right;">
 			</div>
 		</div>
 	</div>
@@ -29,26 +29,60 @@
 					<a class="nav-link" href="#">INICIO</a>
 				</div>
 			</li>
+			<li class="nav-item dropdown">
+				<div class="col-sm-2">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">LECTURAS</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Lectura 1</a>
+						<a class="dropdown-item" href="#">Lectura 2</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Lectura 3</a>
+					</div>
+				</div>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" href="#">MULTIMEDIA</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Multimedia 1</a>
+						<a class="dropdown-item" href="#">Multimedia 2</a>
+						
+					</div>
+			</li>
 			<li class="nav-item">
 				<div class="col-sm-2">
-					<a class="nav-link" href="#">INTRODUCCIÓN</a>
+					<a class="nav-link" href="#">ACTIVIDADES</a>
 				</div>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">HTML 5</a>
-			</li>
-			<li class="nav-item">
 				<div class="col-sm-2">
-					<a class="nav-link" href="#">CSS3</a>
-				</div>
-			</li>
-			<li class="nav-item">
-				<div class="col-sm-2">
-					<a class="nav-link" href="#">VIDEOS</a>
+					<a class="nav-link" href="#">AUTORES</a>
 				</div>
 			</li>
 		</ul>
 		
 	</nav>
+	<section>
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="container">
+					<div id="informacion-curso" style="border: solid 1px; width: 100%; height: 24em; margin: 1em 0 0 1em">
+						<iframe src="https://docs.google.com/viewer?url=/documentcion/Entrega_Tarea_1_github.pdf&embedded=true" style="width: 100%; height: 100%;border: none"></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 text-center">
+
+				<img src="img/html_5.png" alt="Logo" style="width:20%;margin-top: 1em">
+				<div class="container">
+					<div id="informacion-curso" style="border: solid 1px; width: 90%; height: 15em; margin: 1em 0 0 1em">
+						<iframe src="https://www.youtube.com/embed/Imeq3GeRttw" 
+        style="width: 100%; height: 100%;"></iframe>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
 </body>
 </html>
