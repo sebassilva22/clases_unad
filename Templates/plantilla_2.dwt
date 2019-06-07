@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html><!-- InstanceBegin template="/Templates/plantila_index.dwt" codeOutsideHTMLIsLocked="false" -->
+<html>
     <head>
-        <!-- InstanceBeginEditable name="doctitle" -->
+        <!-- TemplateBeginEditable name="doctitle" -->
         <title>CURSO HTML 5 y CSS3 UNAD</title>
-        <!-- InstanceEndEditable -->
+        <!-- TemplateEndEditable -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="style/estilos.css">
-        <!-- InstanceBeginEditable name="head" -->
-        <!-- InstanceEndEditable -->
+        <link rel="stylesheet" type="text/css" href="../style/estilos.css">
+        <!-- TemplateBeginEditable name="head" -->
+        <!-- TemplateEndEditable -->
     </head>
     <body>
         <div id="jumbo" class="jumbotron">
@@ -20,7 +20,7 @@
                 <div class="col-sm-6">
                     <h1>DISEÑO WEB-HTML5 Y CSS3</h1>
                 </div>
-                <div class="col-sm-6"> <img id="logo" src="img/unad_azul.png" alt="Logo"> </div>
+                <div class="col-sm-6"> <img id="logo" src="../img/unad_azul.png" alt="Logo"> </div>
             </div>
         </div>
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark" role="navigation">
@@ -69,27 +69,57 @@
                 <div class="col-sm-6">
                     <div class="container">
                         <div id="informacion-curso"> 
-                            <!-- InstanceBeginEditable name="lectura" -->
-                            <iframe src="documentacion/lectura_1_Juan.pdf"></iframe>
+                            <!-- TemplateBeginEditable name="lectura" -->
+                            <iframe src="documentacion/creacion_paginas_web_html.pdf"></iframe>
+                            <article>
+                                <p>
+                                    El Diseño de Sitios Web va dirigido a estudiantes que estén interesados en el diseño y administración básica de las diversas plataformas web.</p>
+                                <p>
+                                    Se encuentra en la introducción, profundización e información complementaria sobre el uso de GIT y GIHUB para gestionar proyectos colaborativos de diseño web, HTML5 y CSS3 para creación de contenidos en formato web.
+                                </p>
+                                <p>
+                                    <b>
+                                        Encontramos 3 unidades didácticas:</b>
+                                <li>Introducción al Diseño Web.</li>
+                                <li>HTML 5 y sus estructuras.</li>
+                                <li>CSS3 y sus estructuras</li>
+                                </p>
+                                <p>
+                                    Aquí abordaran aspectos de desarrollo , implementación y administración de proyectos de diseño web, para el curso se define el uso de las TICS como agente mediador en el curso entre Docentes y Estudiantes; para esto la Universidad cuenta con un campus virtual donde se encuentra diversos cursos el cual posee elementos de aprendizaje interactivo como OVAS, Tutoriales y Vídeos, que se complementan con la aplicación de actividades académicas en línea y la utilización de canales síncronos y asíncronos de comunicación, el desarrollo del proceso académico que propone el curso. (Syllabus Curso de Diseño de Sitios Web, 2019)
+                                </p>
 
-                            <!-- InstanceEndEditable --> 
+                                <p><b>Objetivo general: </b></p>
+                                <p>
+                                    Conocer las generalidades básicas del Diseño Web y su utilización de forma correcta, con los lenguajes HTML5 y CSS3, aplicando la construcción de Sitios Web a través de sistemas de control de versiones.
+                                </p><b>Objetivo específico 1: </b>
+                                <p>
+                                    Promover la información para que el estudiante pueda diseñar, operar y administrar los sistemas de control de versiones como GIT o GITHUB. 
+                                </p>
+                                <b>
+                                    Objetivo específico 2: 
+                                </b><p>
+                                    Brindar documentación para que el estudiante que utilice de forma correcta los lenguajes HTML5 y CSS3 aplicando la construcción de Sitios Web</p><b>
+
+                                    Objetivo específico 3: 
+                                </b><p>
+                                    Brindar pautas al estudiante para evaluar y desarrollar Sitios Web que satisfagan las necesidades del usuario y dar recomendaciones concretas para su actualización.</p>
+
+                            </article>
+                            <!-- TemplateEndEditable --> 
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6" id="logo2"> 
-                    <div class="row">
+                    <div class="row"><!-- TemplateBeginEditable name="video" -->
                         <div class="col-sm-8">
-                            <div id="informacion-video">
-                                <!-- InstanceBeginEditable name="video" -->
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/sSWT9-l4kck" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                            <!-- InstanceEndEditable -->
+                            
+                           
                         </div>
                         <div class="col-sm-3">
-                            <!-- InstanceBeginEditable name="logo" -->
+                           
                             <a class="twitter-timeline" data-width="300" data-height="100%" data-dnt="true" data-theme="dark" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </div>
-                        <!-- InstanceEndEditable -->
+                        <!-- TemplateEndEditable -->
                     </div>
                 </div>
             </div>
@@ -103,4 +133,4 @@
             </div>
         </footer>
     </body>
-<!-- InstanceEnd --></html>
+</html>
